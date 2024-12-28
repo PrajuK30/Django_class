@@ -6,7 +6,19 @@ import sys
 
 def main():
     """Run administrative tasks."""
+<<<<<<< HEAD
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'stud_pro.settings')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project_name.settings")
+=======
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'clgproject.settings')
+>>>>>>> 1cd9d07 (Initial commit)
+=======
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_pro.settings')
+>>>>>>> 8fd2ff2 (initial commit)
+>>>>>>> afa8c3f18a344e62d7ba1a877a347b11d8a996d8
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
@@ -18,5 +30,17 @@ def main():
     execute_from_command_line(sys.argv)
 
 
+<<<<<<< HEAD
 if __name__ == '__main__':
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+if __name__ == "__main__":
+=======
+if __name__ == '__main__':
+>>>>>>> 1cd9d07 (Initial commit)
+=======
+if __name__ == '__main__':
+>>>>>>> 8fd2ff2 (initial commit)
+>>>>>>> afa8c3f18a344e62d7ba1a877a347b11d8a996d8
     main()
