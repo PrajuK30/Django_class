@@ -1,0 +1,11 @@
+from clgapp.models import *
+>>> department = Department.objects.get(id=1)
+>>> student1 = Student.objects.create(
+...     first_name="Alice",
+...     last_name="Brown",
+...     department=department,  # Pass the Department instance, not the id
+...     email="alice@gmail.com"
+... )
+>>> student1.save()
+>>> Student.objects.all()
+<QuerySet [<Student: john doe>, <Student: Alice Brown>]>
